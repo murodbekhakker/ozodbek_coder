@@ -1,0 +1,140 @@
+.game-bg {
+  background-image: linear-gradient(
+    to right,
+    var(--toRightDark) 50%,
+    var(--toRightBlue) 50%
+  );
+  padding: 200px 0;
+}
+.game-bg__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.game-bg__fire {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.game-bg__fire--span {
+  font-family: Orbitron;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: var(--gameFutureColor);
+  text-transform: uppercase;
+}
+.game-bg__h1 {
+  font-family: Orbitron;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86px;
+  text-align: left;
+  color: var(--whiteColor);
+  padding: 14px 0 45px;
+}
+.game-bg__h1--relative {
+  position: relative;
+}
+.game-bg__h1--absolute {
+  position: absolute;
+  left: 0;
+}
+.game-bg__p {
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: var(--gameBgP);
+  padding-bottom: 53px;
+}
+.game-bg__btnsFlex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.game-bg__btn {
+  background-color: var(--gameFutureColor);
+  border: none;
+  padding: 21px 34px;
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: var(--whiteColor);
+}
+.game-bg__btnLink {
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: var(--whiteColor);
+}
+@media (max-width: 1330px) {
+  .game-bg__flex {
+    display: block;
+  }
+  .game-bg__h1--absolute {
+    bottom: 0;
+  }
+  .game-bg__two {
+    text-align: center;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 700px) {
+  .game-bg__two--img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .game-bg {
+    padding: 100px 0;
+  }
+  .game-bg__fire--span {
+    color: var(--whiteColor);
+  }
+  .game-bg__h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .game-bg__p {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--whiteColor);
+  }
+  .game-bg__h1--absolute {
+    display: none;
+  }
+}
+@media (max-width: 430px) {
+  .game-bg__btnsFlex {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 340px) {
+  .game-bg__fire--span {
+    font-size: 12px;
+  }
+  .game-bg__h1 {
+    font-size: 33px;
+    line-height: 45px;
+  }
+  .game-bg__p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+
+
+
+/*  */
+
+
+
+
